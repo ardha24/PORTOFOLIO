@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PORTO.css">
+    <!-- ASSET -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Caveat:wght@500&family=Gloria+Hallelujah&family=Josefin+Sans:wght@600&family=Lobster&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- Font Awesome 6 (Terbaru) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <!-- ASSET -->
+    <title>FORTOFOLIO</title>
+    <!-- SCRIPT -->
+    <script src="PORTO.JS"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <section id="header">
+        <div class="head">
+            <h1>PORTOFOLIO</h1>
+            <nav>
+                <a href="#about">About Me</a>
+                <a href="#service">Service</a>
+                <a href="#projec">Project</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div> 
+    </section>
+    <!-- ABOUT -->
+    <section id="about">
+        <img src="IMG/Asset 1.png">
+        <div class="text-me">
+            <h2>Hi It's Me <br> <span>Muhammad Mardhotillah</span></h2>
+            <p>I’m an IT student at Universitas Bumigora with 
+                competential skills at Front-end Web Development, 
+                UI/UX & Graphic Design Designing, 
+                and Data Analytics. Along with my technical skills, 
+                I have quite strong soft skills in teamwork, leadership, 
+                and public speaking, that allowing me to effectively collaborate 
+                and in many various projects. I’ve been ready to contributing at 
+                any job or project collaboration with my skill, Let’s work together.
+            </p>
+            <a href="#contact" class="btn">Learn More</a>
+        </div>
+    </section>
+    <!-- SERVICE -->
+    <section id="service">
+        <h1>SERVICE</h1>
+        <div class="wrapper">
+            <div class="card">
+                <img src="IMG/web-design.png" style="width: 125px;">
+                <h2>UI/UX Design</h2>
+                <p>Specifically design some content and prototype for interface and experience purpose on mobile or web based application
+                </p>
+            </div>
+            <div class="card">
+                <img src="IMG/monitor.png" style="width: 125px;">
+                <h2>Data Analytics</h2>
+                <p>Analyzing a dataset to get useful information using SQL and Python programming language
+                </p>
+            </div>
+            <div class="card">
+                <img src="IMG/coding.png" style="width: 125px;">
+                <h2>Web Development</h2>
+                <p>
+                    Developing a website but specifically on Interface part using HTML,CSS, and Javascript
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- PORTOPOLIO -->
+    <section id="projec">
+        <h1>MY PROJECT</h1>
+            <div class="wrapper">
+                <div class="card">
+                    <img src="IMG/Fashion App.webp" style="width: 200px;">
+                    <h2>Fashion Store App</h2>
+                    <p>
+                        Creating a UI design sample and analyzing UX requirement of fashion store website based and publishing on dribbble
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="IMG/Food Order.webp" style="width: 200px;">
+                    <h2>Food Delivery App</h2>
+                    <p>
+                        Creating a UI design sample and analyzing UX requirement by a customer experience of mobile Delivery App and publishing on dribbble
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="IMG/Horror Web.png" style="width: 200px;">
+                    <h2>Online Hororr Story</h2>
+                    <p>
+                        Build an horror story website using HTML, CSS, and PHP to fullfill my grade on campus. It was deployed on github
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="IMG/Pizza Sales.PNG" style="width: 200px;">
+                    <h2>Pizza Sales Website</h2>
+                    <p>
+                        Develop an web based dashboard using HTML, CSS, and javascript to visualizing and getting insight about pizza store sales. It was deployed on github and publish online
+                    </p>
+                </div>
+            </div>
+    </section>
+    <!-- SKILLS -->
+    <section id="skills">
+        <h1>SKILLS & EXPERIENCE</h1>
+        <div class="skills-container">
+            <img src="IMG/competency.png" style="width: 150px; height: 150px;">
+            <div class="skills">
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>Data Anblyst</span><br>Analyzing and Make insight From Data</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>03/2023 - 09/2024</span><br>Editor and Designer In Information Technology Study Group Universitas Bumigora</li>
+                        <li><span>07/2024 - 08/2024</span><br>IT Staff On BBPOM Mataram</li>
+                        <li><span>02/2021 - 05/2021</span><br>Graphic Designer On Adhitama </li>
+        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2018 - 2021</span><br>Graduated Multimedia Student at SMKN 3 Mataram</li>
+                        <li><span>2021 - 2025</span><br>Bachelor of Information Technology at Universitas Bumigora</li>
+                    </ul>
+                </div>
+            </div>         
+        </div>
+    </section>
+    <!-- CONTACT -->
+    <section id="contact">
+        <h1>CONTACT INFO</h1>
+        <div class="contact-container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane" style="color: #d32f2f;"></i> muhammadmardhatila15@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone" style="color: #d32f2f;"></i>+62895800748020</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/d.rdha?igsh=MXNudW1keWRxYnJ6ZA=="><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/muhammad-mardhotillah-8b2982221/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/share/1BbWM1w1MJ/"><i class="fab fa-facebook"></i></a>
+                    </div>
+                    <a href="IMG/My CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                   <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                   </form> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="copyright">
+            <p> 2025 &copy; Muhammad Mardhotillah, All Right Reserved </p>
+        </div>
+    </footer>
+</body>
+</html>
