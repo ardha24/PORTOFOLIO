@@ -11,3 +11,14 @@ function opentab(tabname){
  event.currentTarget.classList.add("active-link");
  document.getElementById(tabname).classList.add("active-tab");
 }
+// POPUP
+
+function openpopup(event) {
+    event.preventDefault();
+    document.getElementById("popup").classList.add("open-popup");
+}
+
+function closepopup() {
+    document.getElementById("popup").classList.remove("open-popup");
+}
+
