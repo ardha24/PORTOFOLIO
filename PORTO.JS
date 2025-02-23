@@ -21,4 +21,10 @@ function openpopup(event) {
 function closepopup() {
     document.getElementById("popup").classList.remove("open-popup");
 }
+// BURGER
+function toggleMenu() {
+    const navMenu = document.getElementById("nav-menu");
+    navMenu.classList.toggle("active");
+}
+
 
