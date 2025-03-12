@@ -192,6 +192,21 @@ nav a:hover::after{
     height: 3px;
     background: #D32F2F;
 }
+.btn-project{
+    display: block;
+    margin: 20px auto;
+    width: fit-content ;
+    border: 1px solid #D32F2F;
+    padding: 5px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #D32F2F;
+    transition: background 0.5s;
+}
+.btn-project:hover{
+    color: white;
+    background: #D32F2F;
+}
 #skills {
     display: flex;
     align-items: center;
