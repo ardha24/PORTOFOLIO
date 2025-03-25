@@ -9,6 +9,38 @@ h1, h2, p {
     line-height: 1.5;
     overflow: hidden;
 }
+.swiper {
+    width: 50%;
+    padding: 20px 0;
+}
+
+.swiper-slide {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.swiper-slide img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    color: #D32F2F !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #D32F2F !important;
+}
+
 .btn{
     display: block;
     margin: 50px auto;
@@ -495,7 +527,18 @@ footer{
         padding: 0;
         gap: 20px;
     }
+    .swiper {
+        width: 80%;
+    }
+    .swiper-button-prev {
+        left: -2px !important;
+    }
+    
+    .swiper-button-next {
+        right: -2px !important;
+    }
     .card {
+        flex-direction: column;
         width: 80%;
         margin: 10px auto;
     }
@@ -578,7 +621,21 @@ footer{
     .text-me h2 {
         font-size: 24px;
     }
+    .swiper {
+        width: 80%;
+    }
+    .swiper-slide{
+        width: 50%;
+    }
+    .swiper-button-prev {
+        left: -2px !important;
+        
+    }
+    .swiper-button-next {
+        right: -2px !important;
+    }
     .card {
+        flex-direction: column;
         width: 90%;
         padding: 15px;
     }

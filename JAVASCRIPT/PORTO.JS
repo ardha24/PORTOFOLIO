@@ -26,5 +26,19 @@ function toggleMenu() {
     const navMenu = document.getElementById("nav-menu");
     navMenu.classList.toggle("active");
 }
+// SWIPER
+document.addEventListener("DOMContentLoaded", function () {
+    var swiper = new Swiper(".swiper", {
+        loop: true, 
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+});
 
 
